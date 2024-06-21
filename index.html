@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Volume Converter</h1>
+        <div class="converter">
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <select id="inputUnit">
+                <option value="liters">Liters</option>
+                <option value="milliliters">Milliliters</option>
+                <option value="cubicMeters">Cubic Meters</option>
+                <option value="cubicFeet">Cubic Feet</option>
+            </select>
+            <span>to</span>
+            <select id="outputUnit">
+                <option value="liters">Liters</option>
+                <option value="milliliters">Milliliters</option>
+                <option value="cubicMeters">Cubic Meters</option>
+                <option value="cubicFeet">Cubic Feet</option>
+            </select>
+            <button onclick="convert()">Convert</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/578/086/non_2x/mathematical-background-with-formulas-and-geometric-shapes-for-various-purposes-such-as-banner-wallpaper-poster-background-vector.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 5;
+}
+
+.container {
+    background-color: #dbcfa3;
+    padding: 20px;
+    border-radius: 8px;
+    border-color: rgba(13, 1, 1,1);
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0b0101;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #82692c;
+    color: #060000;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #644e13;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
